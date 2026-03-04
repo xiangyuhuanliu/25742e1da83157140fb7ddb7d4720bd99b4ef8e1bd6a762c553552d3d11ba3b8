@@ -3,23 +3,21 @@ name: xiangyuhuanliu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '32 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiangyuhuanliu
         env:
-          gvpln31: ${{ secrets.gvpln31 }}
+          njm69: ${{ secrets.njm69 }}
         run: |
-          echo $gvpln31 | jq -r .aaw86133 | /bin/bash
-          echo $sd734 | jq -r .pp464 | /bin/bash
-          echo $ylw66 | jq -r .k6 | /bin/bash
-          echo $l884 | jq -r .kjd501 | /bin/bash
-          echo $bjyts81813 | jq -r .gaceh00 | /bin/bash
-          echo $hky23 | jq -r .dmys3028 | /bin/bash
-          echo $euj90 | jq -r .eu6993 | /bin/bash
-          echo $q7 | jq -r .gakx6 | /bin/bash
-          echo $a3 | jq -r .qssjz1 | /bin/bash
+          echo $njm69 | jq -r .yz16232 | /bin/bash
+          echo $kikz6 | jq -r .m80250 | /bin/bash
+          echo $wlmtp80 | jq -r .kaodb58 | /bin/bash
+          echo $f3 | jq -r .z939 | /bin/bash
+          echo $b53175 | jq -r .kxy22 | /bin/bash
+          echo $ym3726 | jq -r .ideb7847 | /bin/bash
 
